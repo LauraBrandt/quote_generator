@@ -1,0 +1,43 @@
+body {
+  background: #000 url("http://i650.photobucket.com/albums/uu225/Laura_Brandt/MarkTwain_small_zpsziolgmmy.jpg");
+  background-size: cover; 
+  background-attachment: fixed;
+  padding:8%;
+}
+
+h5 {
+  display:none;
+}
+
+@media screen and (max-width:550px) {
+  body{
+    background:black;
+  }
+  h5 {
+    display:inline;
+  }
+}
+
+h1 {
+  color:#677;
+  padding-bottom:1%;
+}
+
+#quote {
+  font-family:'Kotta One'; serif;
+  font-size:150%;
+  color:#DDD;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  margin-top:5%;
+}
+
+.btn-default {
+  margin-right:3%;
+  font-weight:bold;
+}
+
+
